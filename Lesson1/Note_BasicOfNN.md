@@ -39,7 +39,7 @@ What if you want to perform an operation, such as predicting college admission, 
 
 Error(Loss Function): 
 
-- sum of the squared errors (SSE): $E = \frac{1}{2} \Sum_{\mu}\Sum_{j} [y_j^{\mu} - \hat{y}_j^{\mu}] ^ 2$
+- sum of the squared errors (SSE): $E = \frac{1}{2} \sum_{\mu}\sum_{j} [y_j^{\mu} - \hat{y}_j^{\mu}] ^ 2$
 
 $\hat{y}_j^{\mu} = f( \sum_i w_{ij}x_i^{\mu})$
 
@@ -73,11 +73,11 @@ First, you'll need to initialize the weights. We want these to be small such tha
 - output error: y - output # real - model 
 - output-error gradient: error * output * (1 - output)
 - hidden layer error gradient:
-	- $\delta_{j}^{h} = \Sum_k W_{jk}\delta_{k}^{h+1}f'(h_j)$
+	- $\delta_{j}^{h} = \sum_k W_{jk}\delta_{k}^{h+1}f'(h_j)$
 
 
 for the $j$th node at $h$th layer, its error (model prediction v.s. output feedback) 
-$$\delta_{j}^{h} = \Sum_k W_{jk}\delta_{k}^{h+1}f'(h_j)$$
+$$\delta_{j}^{h} = \sum_k W_{jk}\delta_{k}^{h+1}f'(h_j)$$
 
 where $h_j = W_{in}^{h}X_{in}^{h} + b$, that is the input for this layer
 
