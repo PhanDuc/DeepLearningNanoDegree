@@ -9,6 +9,12 @@ Draw a line -> minimize errors by the line -> gradient descent
 -> Each node could be a logistic regression -> finally use a node to process previous nodes
 -> Neural network can be treated as a multiple compound of simple logistic regressions?
 
+### Connection
+
+We can think the neural network is a function of multiple logistic regression -- a function that take multiple lines to split the subspace.
+
+**Actually**, to understand neural network from the perspective of logistic regression is a good instruction.
+
 # Perceptron
 
 Data, like test scores and grades, is fed into a network of interconnected nodes. These individual nodes are called **perceptrons** or neurons, and they are the basic unit of a neural network. *Each one looks at input data and decides how to categorize that data*. In the example above, the input either passes a threshold for grades and test scores or doesn't, and so the two categories are: yes (passed the threshold) and no (didn't pass the threshold). These categories then combine to form a decision -- for example, if both nodes produce a "yes" output, then this student gains admission into the university.
@@ -86,6 +92,15 @@ $$\Delta w_{ij} = \eta \delta_j^h x_i^{h - 1}$$
 
 where $i$ is the index for input, $x_i$ are the input in the input-nearer level.
 
+### Error Term
+
+$\text{Error} = (y - \hat{y})$
+
+$\delta = \text{Error} \times \text{Derivative}$
+
+$\delta = (y - \hat{y}) f'(h)$, where $f(h)$ is the activation function, and $h = \sum_i w_ix_i$
+
+$w_i = w_i + \eta \cdot \delta \cdot x_i$
 
 # References
 
