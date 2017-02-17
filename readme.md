@@ -3,8 +3,10 @@
 
 - Deep Learning Nanodegree Foundation
     - Course Progression
-        - `Lession 1`
-        - `Lession 2`
+        - `Lesson 1`
+        - `Lesson 2`
+        - `Lesson 3`
+        - `Lesson 4`
     - Project Progression
         - `Project 1`
 - Deep Learning by Vincent Vanhoucke
