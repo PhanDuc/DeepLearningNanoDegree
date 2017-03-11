@@ -17,3 +17,6 @@
 2. Installl tensorflow 1.0 
     - `conda install -c conda-forge tensorflow=1.0.0`
 
+## Predict Google Stock price
+
+- [etai83 code](https://github.com/etai83/lstm_stock_prediction/blob/master/.ipynb_checkpoints/GOOGLE%20stock%20prediction-checkpoint.ipynb)

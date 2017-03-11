@@ -14,3 +14,7 @@
 - [flatten](https://www.tensorflow.org/api_docs/python/tf/contrib/layers/flatten)
 - [fully connection](https://www.tensorflow.org/api_docs/python/tf/contrib/layers/fully_connected)
     - default: ReLU activation
+
+### `*args` and `**kwargs`
+
+[Here](http://stackoverflow.com/questions/3394835/args-and-kwargs) is a very good discussion about `*args` and `**kwargs`

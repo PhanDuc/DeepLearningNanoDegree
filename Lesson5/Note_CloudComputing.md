@@ -50,3 +50,4 @@
 1. Access the Jupyter notebook index from your web browser by visiting: X.X.X.X:8888 (where X.X.X.X is the IP address of your EC2 instance)
 2. Click on the "intro_to_tensorflow.ipynb" link to launch the LeNet Lab Solution notebook
 3. Run each cell in the notebook
+
