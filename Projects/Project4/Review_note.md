@@ -29,3 +29,13 @@ This means that both your infer and training layer will use dropout results.
 - [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](https://arxiv.org/pdf/1512.05287.pdf)
 - [What’s the Difference Between Deep Learning Training and Inference?](https://blogs.nvidia.com/blog/2016/08/22/difference-deep-learning-training-inference-ai/)
 - [What My Deep Model Doesn't Know...](http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html)
+
+## Other Suggested Parameters
+
+```
+batch_size=512
+RNN_size = 256
+num_layers = 3 or 4
+encoding_embedding_size, decoding_embedding_size around 100
+learn rate 0.01-0.05.
+```
