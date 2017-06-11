@@ -8,3 +8,5 @@
 - `floyd init xxx-proj`
 - ` floyd run --gpu --env tensorflow-1.0 --mode jupyter --data diSgciLH4WA7HpcHNasP9j`
 - `floyd stop ID`
+
+login: fyang24@jhu.edu
